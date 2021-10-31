@@ -1,13 +1,19 @@
 {
-  "name": "jobs",
+  "name": "task-manager",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "A simple NodeJs with ExpressJs framework application.",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "tasks",
+    "task-manager",
+    "to-do",
+    "to-do list"
+  ],
+  "author": "R. Goshen",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
